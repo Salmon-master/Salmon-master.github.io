@@ -43,10 +43,10 @@ body{
       background-repeat: no-repeat;
       /* background-size: 100%; */
       gap: 0.5%;
-      grid-template-columns: 33% 33% 33%;
+      grid-template-columns: 40% 20% 40%;
   }
   #hide-on-phone{
-    visibility: hidden;
+    display: none;
   }
   }
 .anchor{
@@ -241,7 +241,7 @@ hr{
       margin: 2% 0px;
   }
   .box ul{
-      font-size: calc((10vw + 1vh) / 4);
+      font-size: calc((10vw + 1vh) / 3);
       font-family: 'PT Sans', sans-serif;
       list-style: none;
   }
@@ -318,6 +318,7 @@ hr{
   background-color: black;
   top: -20px;
   padding: 0.4vh;
+  color: whitesmoke;
 }
 
 .news:hover{

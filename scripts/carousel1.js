@@ -1,14 +1,15 @@
 let image = 1;
 let carousel_interval;
-let text = [
-  "<h1>Union Rowing Club 1</h1>",
-  "<h1>Union Rowing Club 2</h1>",
-  "<h1>Union Rowing Club 3</h1>",
-]
+// let text = [
+//   "<h1>Union Rowing Club</h1>",
+//   "<h1>New Zealand's Second Oldest Rowing Club</h1> <p>with a rich history dating back more than a century, Union has a long history of success and a bright future</p>",
+//   "<h1>Union Rowing Club 3</h1>",
+// ]
 
 function onLoad() {
   carousel_interval = setInterval(cycle, 7000);
   document.getElementById("carousel").style.backgroundImage = "url(images/caurosel1/" + image.toString() + ".jpg)";
+  // document.getElementById("carouseltxt").innerHTML = text[(image - 1)];
 }
 
 function cycle() {
@@ -25,7 +26,7 @@ function change() {
     image = 1;
   }
   document.getElementById("carousel").style.backgroundImage = "url(images/caurosel1/" + image.toString() + ".jpg)";
-  document.getElementById("carouseltxt").innerHTML = text[(image - 1)];
+  // document.getElementById("carouseltxt").innerHTML = text[(image - 1)];
   carousel_interval = setInterval(cycle, 7000);
   setTimeout(removeClass, 2500);
 }
