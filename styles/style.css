@@ -209,6 +209,10 @@ hr{
     font-family: 'PT Sans', sans-serif;
     list-style: none;
 }
+.title{
+  font-size: 4vw;
+  font-family: 'Oswald', sans-serif;
+}
 }
 
 @media screen and (max-width: 750px){
