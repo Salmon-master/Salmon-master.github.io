@@ -20,11 +20,11 @@ body{
     display: grid;
     background-attachment: fixed;
     margin: 0px;
-    background-position: top;
     background-repeat: no-repeat;
     /* background-size: 100%; */
     gap: 2%;
     grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+    /* min-height: 7vh; */
 }
 #hide-on-phone{
   visibility: visible;
